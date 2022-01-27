@@ -1,0 +1,54 @@
+{
+        "data": {
+          "amount": 500,
+          "version": "5.0.0",
+          "status": "ACTIVE",
+          "refunded": false,
+          "url": "https://pix.bcb.gov.br/api/v2/AcessoPermitido",
+          "emv": "https://pix.bcb.gov.br/api/v2/AcessoPermitido/7d9f0335-8dcc-4054-9bf9-0dbd61d36906",
+          "calendar": {
+            "expiration": "2021-11-10 20:24:54",
+            "overdue_payment_allowed": false,
+            "created_at": "2021-11-10 15:12:09"
+          },
+          "qrcode": {
+            "type": "DYNAMIC",
+            "reusable": true,
+            "recipient": {
+              "number": "123456789",
+              "name": "Teste rest assured",
+              "document_type": "CPF",
+              "bank_account": {
+                "ispb": "12345",
+                "name": "Teste rest assured ",
+                "branch": "004",
+                "number": "123456789",
+                "type": "CORRENTE"
+              }
+            },
+            "simulation": false,
+            "standard": false,
+            "status": "ACTIVE",
+            "reusable_type": "AUTOMATIC",
+            "operation_channel": "api"
+          },
+          "dict_key": {
+            "type": "EMAIL",
+            "value": "teste@gmail.com"
+          },
+          "tx_id": "09s9d9d7d7f76f76f7rtf6rf5r67f6r7",
+          "amount_modifiers": {
+            "allow_changes": false
+          },
+          "document_id": "454545f-56565-565656-bb56xxxx8f-xxxxxxyy",
+          "final_amount": 500,
+          "pix_link": "https://pix.bcb.gov.br/api/v2/AcessoPermitido/MDAwMjAxMDEwMjExMjY4NjAw",
+          "base64_image": "XYZ7P5MGBmMNBOxiXPTOSGzUvXCKcBP60X2OsF9nqBvf4D8BsNcSWJ",
+          "review_document": {
+            "review": 0,
+            "review_document_id": "xr454545-vfrr-4359-454fdf-ycxxss"
+          }
+        },
+        "qrcode_type": "PIX",
+        "pix_type": "TEST"
+      }

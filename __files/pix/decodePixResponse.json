@@ -1,0 +1,19 @@
+    {
+        "status": "ATIVA",
+        "calendario": {
+          "criacao": "2020-09-09T20:15:00.358Z",
+          "expiracao": "3600"
+        },
+        "location": "pix.example.com/qr/9d36b84f-c70b-478f-b95c-12729b90ca25",
+        "txid": "7978c0c9-7ea8-47e7-8e88-49634473c1f1",
+        "revisao": 1,
+        "devedor": {
+          "cnpj": "12345678000195",
+          "nome": "Empresa de Serviços SA"
+        },
+        "valor": {
+          "original": "567.89"
+        },
+        "chave": "a1f4102e-a446-4a57-bcce-6fa48899c1d1",
+        "solicitacaoPagador": "Informar cartão fidelidade"
+      }

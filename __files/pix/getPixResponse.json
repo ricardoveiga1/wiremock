@@ -1,0 +1,109 @@
+{
+    "qrcode_type": "PIX",
+    "data": {
+        "tx_id": "xpto123456789",
+        "document_id": "xpto123-1234-456-789-dr123",
+        "version": "5.0.0",
+        "status": "ACTIVE",
+        "amount": 500,
+        "final_amount": 500,
+        "refunded": false,
+        "paid": true,
+        "payer_request":"Lorem ipsum. Aasasd",
+        "url": "https://pix.bcb.gov.br/api/v2/AcessoPermitido",
+        "emv": "https://pix.bcb.gov.br/api/v2/AcessoPermitido/7d9f0335-8dcc-4054-9bf9-0dbd61d36906",
+        "pix_link": "https://pix.bcb.gov.br/api/v2/AcessoPermitido/MDAwMjAxMDEwMjExMjY4NjAw",
+        "imagem_base64": "XYZ7P5MGBmMNBOxiXPTOSGzUvXCKcBP60X2OsF9nqBvf4D8BsNcSWJ",
+        "amount_modifiers": {
+            "interest":100,
+            "late_fee":100,
+            "discount":350,
+            "interest_percentage":0.1,
+            "discount_percentage":0.1,
+            "allow_changes": false
+        },
+        "dict_key": {
+            "type": "EMAIL",
+            "value": "ricardo@gmail.com"
+        },
+        "review_document": {
+            "review": 0,
+            "review_document_id": "xpto-1234-5678-8976-cr354f"
+        },
+        "calendar": {
+            "expiration": "2021-01-01 23:00:00",
+            "due_date": "2021-01-01 23:00:00",
+            "late_fee": "2021-01-01 23:00:00",
+            "interest": "2021-01-01 23:00:00",
+            "discount": "2021-01-01 23:00:00",
+            "presentation": "2021-01-01 23:00:00",
+            "overdue_payment_allowed": false,
+            "created_at": "2020-12-28 13:42:40"
+        },
+        "qrcode": {
+            "type": "DYNAMIC",
+            "reusable": true,
+            "qrcode_pix_id": "123456789",
+            "simulation": false,
+            "standard": false,
+            "status": "ACTIVE",
+            "reusable_type": "AUTOMATIC",
+            "operator_id": "12345",
+            "recipient": {
+                "number": "19571816051",
+                "name": "Teste para Estudo rest assured",
+                "document_type": "CPF",
+                "bank_account": {
+                    "ispb": "123456789",
+                    "name": "Teste estudo",
+                    "branch": "05",
+                    "number": "21052012",
+                    "type": "CORRENTE"
+                }
+            },            
+            "indirect_participant":{
+                "ispb": "123456789",
+                "financial_institution": "XTPO",
+                "account_type": "XXXXX",
+                "instant_payment_ispb_code": "Lorem Ipsum",
+                "agency": "lorem ipsum",
+                "account": "lorem ipsum"
+            }
+        },
+        "infos":[
+            {
+                "name":"Name teste",
+                "value": "Value Teste"
+            }
+        ],
+        "payments_quantity": 2,
+        "payments_document":[
+            {
+                "payment_id": "ABC1234",
+                "launch_id": "ABC1234",
+                "transfer_id": "ABC1234",
+                "camera_control_code": "ABC1234",
+                "document_id": "ABC1234",
+                "date_time": "2021-01-01 23:00:00",
+                "amount": 500,
+                "refund_possibility_indicator": false,
+                "max_refund_amount": 500,
+                "refunded_amount": 0,
+                "buyer_response_text":"Lorem ipsum"
+            },
+            {
+                "payment_id": "ABC12345",
+                "launch_id": "ABC12345",
+                "transfer_id": "ABC12345",
+                "camera_control_code": "ABC12345",
+                "document_id": "ABC12345",
+                "date_time": "2021-11-01 12:00:00",
+                "amount": 500,
+                "refund_possibility_indicator": false,
+                "max_refund_amount": 500,
+                "refunded_amount": 0,
+                "buyer_response_text":"Lorem ipsum"
+            }
+        ]
+    }
+}

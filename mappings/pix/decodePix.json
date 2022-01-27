@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/qrcode/v1/cob/pix/decode"
+    },
+    "response": {
+        "status": 201,
+        "bodyFileName": "pix/decodePixResponse.json",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        }
+    }
+}
